@@ -1,6 +1,7 @@
 from Grammaire import lexer, parser
 from terminaltables import AsciiTable
 
+
 def afficher_aide():
     """
     Affiche un message d'aide avec la liste des symboles valides pour les formules de logique de proposition.
@@ -34,7 +35,7 @@ def convertir_mots_en_symboles(expression):
     """
     Convertit les mots-clés en symboles logiques.
     """
-
+    # Dictionnaire des mots-clés en symboles
     mots_en_symboles = {
         "~": "¬",
         "&": "∧",
@@ -42,12 +43,14 @@ def convertir_mots_en_symboles(expression):
         ">>": "→",
         "=": "↔"
     }
-
+    # Expression non convertie
     expression_convertie = expression
 
+    # Convertir tous les mots en symboles
     for mots, symboles in mots_en_symboles.items():
         expression_convertie = expression_convertie.replace(mots, symboles)
 
+    # Retourner l'expression convertie
     return expression_convertie
 
 
