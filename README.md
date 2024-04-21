@@ -1,13 +1,6 @@
-# README
+# Projet : Analyseur de Propositions Logiques
 
-## Projet : Évaluateur de Propositions Logiques
-
-Ce projet est un évaluateur de propositions logiques basé sur la syntaxe et la sémantique des langages de programmation. Il permet aux utilisateurs de saisir des formules logiques en utilisant des mots-clés, puis de les convertir pour une évaluation.
-
-## Fonctionnalités
-
-- **Conversion de Syntaxe :** Convertit les mots-clés en symboles logiques pour une représentation interne.
-- **Analyse Syntaxique :** Utilise un lexer et un parser pour analyser la formule saisie par l'utilisateur.
+Ce projet est un analyseur de propositions logiques basé sur la syntaxe de logique sémantique. Il permet aux utilisateurs de saisir des formules logiques en utilisant des symboles logiques, puis de les convertir pour une évaluation.
 
 ## Installation
 
@@ -16,7 +9,7 @@ Ce projet est un évaluateur de propositions logiques basé sur la syntaxe et la
 2. Clonez ce dépôt
 
     ```
-    git clone git@github.com:Florian-DAUVERGNE/evaluateur_de_propositions.git
+    git clone git@github.com:Florian-DAUVERGNE/analyseur-syntaxique.git
     ```
 
  ou téléchargez les fichiers source.
@@ -40,8 +33,8 @@ Ce projet est un évaluateur de propositions logiques basé sur la syntaxe et la
 
 1. Exécutez le script principal en utilisant Python :
   ```
-  python main.py #Python
-  python3 main.py #Python3
+  python AnalyseurSyntaxique.py #Python
+  python3 AnalyseurSyntaxique.py #Python3
   ```
 2. Suivez les instructions à l'écran pour saisir votre formule logique.
 3. Utilisez la commande `help` pour afficher un tableau de correspondance entre les mots-clés et les symboles logiques.
@@ -61,3 +54,6 @@ Ce projet est un évaluateur de propositions logiques basé sur la syntaxe et la
 ply : https://github.com/dabeaz/ply
 
 terminaltables : https://pypi.org/project/terminaltables/
+
+## Lien vers l'ancien repertoire GitHub
+https://github.com/Florian-DAUVERGNE/evaluateur_de_propositions
